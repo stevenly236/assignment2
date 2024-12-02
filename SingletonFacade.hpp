@@ -26,7 +26,10 @@ private:
     };
 
 public:
+    // Returns single instance of facade
     static SingletonFacade* getInstance();
+
+    // Executes genetic algorithm with parameters
     void run(int citiesInTour = Constants::DEFAULT_CITIES_IN_TOUR,
              int populationSize = Constants::DEFAULT_POPULATION_SIZE,
              double mutationRate = Constants::DEFAULT_MUTATION_RATE);

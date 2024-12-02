@@ -17,9 +17,16 @@ private:
     double y;
 
 public:
+    // Constructs city with name and location
     City(const std::string& name, double x, double y);
+
+    // Returns the city's name
     string getName() const { return name; }
+
+    // Returns the city's x coordinate
     double getX() const { return x; }
+
+    // Returns the city's y coordinate
     double getY() const { return y; }
 };
 
