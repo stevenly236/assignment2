@@ -3,5 +3,11 @@
 //
 
 
+#include "SingletonFacade.hpp"
+
 int main() {
+    SingletonFacade* facade = SingletonFacade::getInstance();
+    facade->run();
+    delete facade;
+    return 0;
 }
