@@ -8,15 +8,17 @@
 #pragma once
 #include <string>
 
+using namespace std;
+
 class City {
 private:
-    std::string name;
+    string name;
     double x;
     double y;
 
 public:
     City(const std::string& name, double x, double y);
-    std::string getName() const { return name; }
+    string getName() const { return name; }
     double getX() const { return x; }
     double getY() const { return y; }
 };

@@ -22,7 +22,7 @@ private:
         static const int NUMBER_OF_PARENTS = 2;
         static const int NUMBER_OF_ELITES = 1;
         static constexpr double DEFAULT_MUTATION_RATE = 0.15;
-        static constexpr double IMPROVEMENT_FACTOR = 2.4;
+        static constexpr double IMPROVEMENT_FACTOR = 1.4;
     };
 
 public:
